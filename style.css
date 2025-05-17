@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+nav{
+    font-family: Impact;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Impact;
+}
+p,li,a{
+
+    font-size: 20px;
+}
+
+
+section {
+    padding: 100px 0;
+}
+#about h1, #about p {
+
+    padding-left: 30px;
+}
+
+@media (max-width: 767.98px) {
+    #about {
+        padding-top: 100px 0;
+    }
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+h1{
+    color:#024950;
+}
+
+footer {
+    height: 60px;
+    background-color: #003135;
+}
+/* Typewriter effect animation */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 15ch; } /* adjust to text length */
+}
+
+@keyframes blinkCaret {
+    0%, 100% { border-color: transparent }
+    50% { border-color: white; }
+}
+
+#portfolioText.typing {
+    font-family: Impact;
+    animation: typing 3s steps(15) forwards, blinkCaret 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid white;
+}
+
+.fade-out {
+
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.fade-in {
+
+    opacity: 1 !important;
+    transition: opacity 1s ease;
+}
