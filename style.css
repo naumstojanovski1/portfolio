@@ -30,6 +30,10 @@ section {
     #about {
         padding-top: 100px 0;
     }
+       #about h1, #about p {
+
+         padding-right: 30px;
+     }
 }
 .navbar {
     position: sticky;
